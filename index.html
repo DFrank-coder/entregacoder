@@ -11,26 +11,22 @@
   <link rel="shortcut icon" href="./img/icono.jpg" type="image/x-icon">
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    rel="stylesheet">
   <title>Home | VUELO A VELA ✈</title>
 </head>
 
 <body>
-  <header class="header sticky-top">
+  <header class="header-sticky-top">
     <nav class="navbar">
-      <img src="../actividad 2.9/img/logoplaneador.jpg" alt="logo de planeador" width="50">
+      <img src="../actividad 2.9/img/logoplaneador.jpg" alt="logo de planeador" class="logo">
       <div class="titulo">
         <h1>PLANEADORES</h1>
       </div>
-      <button class="button">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-          <path fill-rule="evenodd"
-            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-        </svg>
-      </button>
       <ul class="ul">
         <li class="li"><a href="#">Inicio</a></li>
         <li class="li"><a href="../actividad 2.9/pages/planeadores.html">Galería</a></li>
-        <li class="li"><a href="../actividad 2.9/pages/caracteristicas.html">Caracteristicas</a></li>
+        <li class="li"><a href="../actividad 2.9/pages/caracteristicas.html">Características</a></li>
         <li class="li"><a href="../actividad 2.9/pages/contacto.html">Contacto</a></li>
       </ul>
     </nav>
@@ -38,60 +34,71 @@
 
   <main>
     <section class="aeronautica">
-      <h2 class="text-success">BIENVENIDOS AL APASIONANTE MUNDO DE LA AERONAUTICA</h2>
-      <p class="parrafo1">Bienvenido al apasionante mundo de la ingeniería aeronáutica y aeroespacial, un campo que
-        combina creatividad con experiencia técnica para diseñar, desarrollar y mejorar aeronaves y naves espaciales.
-        Si
-        te fascina la mecánica del vuelo y la exploración espacial, este podría ser el camino perfecto para ti.
-        Esta disciplina ofrece la oportunidad de contribuir a la tecnología de vanguardia y realizar avances
-        significativos en los viajes aéreos y espaciales.</p>
-      <p class="parrafo2">La ingeniería aeronáutica y aeroespacial es una rama de la ingeniería que se centra en el
-        diseño,
-        desarrollo, prueba y producción de aeronaves y naves espaciales. Se divide en dos ramas principales: la
-        ingeniería aeronáutica (que se refiere a los aviones dentro de la atmósfera terrestre) y la ingeniería
-        aeroespacial (que incluye tanto aviones como naves espaciales).</p>
+      <h2 class="titulo">BIENVENIDOS AL APASIONANTE MUNDO DE LA AERONAUTICA</h2>
+      <div class="contenido">
+        <p class="parrafo1">Bienvenido al apasionante mundo de la ingeniería aeronáutica y aeroespacial, un campo que
+          combina creatividad con experiencia técnica para diseñar, desarrollar y mejorar aeronaves y naves espaciales.
+          Si te fascina la mecánica del vuelo y la exploración espacial, este podría ser el camino perfecto para ti.
+          Esta disciplina ofrece la oportunidad de contribuir a la tecnología de vanguardia y realizar avances
+          significativos en los viajes aéreos y espaciales.</p>
+        <p class="parrafo2">La ingeniería aeronáutica y aeroespacial es una rama de la ingeniería que se centra en el
+          diseño, desarrollo, prueba y producción de aeronaves y naves espaciales. Se divide en dos ramas principales:
+          la ingeniería aeronáutica (que se refiere a los aviones dentro de la atmósfera terrestre) y la ingeniería
+          aeroespacial (que incluye tanto aviones como naves espaciales).</p>
+      </div>
     </section>
+
 
     <!-- Sección Diseño -->
     <section class="seccion-diseño">
       <h2>Diseño</h2>
       <div class="diseño-contenedor">
         <div class="diseño-item">
-          <img src="./img/aeronautica.jpg" alt="avion" class="img-diseño">
-          <p>Imágen diseñadora 1</p>
+          <img src="./img/3dprograma.png" alt="avion" class="img-diseño">
+          <p class="descripcion">Programa</p>
+        </div>
+        <div class="diseño-item">
+          <img src="./img/nasa.png" alt="avion" class="img-diseño">
+          <p class="descripcion">Patrocinador</p>
         </div>
         <div class="diseño-item">
           <img src="./img/aeronautica.jpg" alt="avion" class="img-diseño">
-          <p>Imagen diseñadora 2</p>
-        </div>
-        <div class="diseño-item">
-          <img src="./img/aeronautica.jpg" alt="avion" class="img-diseño">
-          <p>Imagen diseñadora 3</p>
+          <p class="descripcion">Diseño</p>
         </div>
       </div>
     </section>
+
 
     <!-- Sección Habilidades -->
     <section class="seccion-habilidades">
       <h2>Habilidades</h2>
       <div class="habilidades-contenedor">
         <div class="habilidad-item">
-          <p>Sólidas habilidades matemáticas y analíticas</p>
+          <div class="habilidad-contenido">
+            <i class="fas fa-brain habilidad-icono"></i>
+            <p>Sólidas habilidades matemáticas y analíticas</p>
+          </div>
         </div>
         <div class="habilidad-item">
-          <p>Comprensión de la física</p>
+          <div class="habilidad-contenido">
+            <i class="fas fa-atom habilidad-icono"></i> <!-- Icono de átomo -->
+            <p>Comprensión de la física</p>
+          </div>
         </div>
         <div class="habilidad-item">
-          <p>Creatividad y capacidad para resolver problemas</p>
+          <div class="habilidad-contenido">
+            <i class="fas fa-lightbulb habilidad-icono"></i> <!-- Icono de bombilla -->
+            <p>Creatividad y capacidad para resolver problemas</p>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <a href="#"><i class="bi bi-facebook"></i></a>
-    <a href="#"><i class="bi bi-instagram"></i></a>
-    <a href="#"><i class="bi bi-twitter"></i></a>
+    <a href="#"><i class="bi-bi-facebook"></i></a>
+    <a href="#"><i class="bi-bi-instagram"></i></a>
+    <a href="#"><i class="bi-bi-twitter"></i></a>
     <h4><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank">mail💌 gallegillof@gmail.com</a>
     </h4>
     <h4 class="tel">teléfono ☎ 351-2125917</h4>

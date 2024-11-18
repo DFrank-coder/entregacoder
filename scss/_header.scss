@@ -1,0 +1,31 @@
+/* header*/
+.header-sticky-top {
+  background-color: #f1f4f7;
+  padding: 1rem;
+}
+.header-sticky-top .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.header-sticky-top .navbar img .titulo h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+}
+.header-sticky-top .navbar img .titulo h1 .button {
+  display: none;
+}
+.header-sticky-top .navbar img .titulo h1 .button .ul {
+  list-style: none;
+  padding: 2 rem;
+  display: flex;
+  gap: 1rem;
+}
+.header-sticky-top .navbar img .titulo h1 .button .ul .li a {
+  padding: 2 auto;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}

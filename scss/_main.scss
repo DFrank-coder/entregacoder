@@ -1,0 +1,68 @@
+/* seccion main*/
+
+main .aeronautica {
+    padding: 4rem;
+    text-align: center;
+  }
+  main .aeronautica .text-success {
+    color: #198754;
+    padding: 2rem;
+  }
+  main .aeronautica .text-success .parrafo1 {
+    padding: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: white;
+  }
+  main .aeronautica .text-success .parrafo1 .parrafo2 {
+    padding: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: white;
+  }
+  main .aeronautica .text-success .seccion-diseño {
+    background-color: none;
+    text-align: center;
+    padding: 4rem;
+  }
+  main .aeronautica .text-success .seccion-diseño h2 .diseño-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  main .aeronautica .text-success .seccion-diseño h2 .diseño-contenedor .diseño-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgb(18, 91, 248);
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+  }
+  main .aeronautica .text-success .seccion-diseño h2 .diseño-contenedor .diseño-item:hover .img-diseño {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgb(18, 91, 248);
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px hsla(260, 100%, 1.5%, 0.979);
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+  }
+  main .aeronautica .text-success .seccion-habilidades {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+  }
+  main .aeronautica .text-success .seccion-habilidades h2 .habilidades-contenedor {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  main .aeronautica .text-success .seccion-habilidades h2 .habilidades-contenedor .habilidad-item {
+    background-color: #afbcc9;
+    padding: 1rem;
+    border-style: inset;
+    border-radius: 8px;
+    width: 180px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
