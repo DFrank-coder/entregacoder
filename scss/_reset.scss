@@ -1,17 +1,22 @@
-/*DECLARACION DE VARIABLES*/
+/* Variables */
+$primary-color: #080808;
+$secondary-color: #4c4e4e;
+$text-color: #050505;
+$hover-color: hwb(54 0% 0%);
+$footer-bg: #111111;
+$nav-color: white;
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  /* BODY */
-  body {
+}
+
+/* General styles */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: $text-color;
     background-image: url(../img/imagenbody.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-family: "Roboto Condensed", sans-serif;
-  }
-  
+}

@@ -1,59 +1,35 @@
-/* Seccion footer */
-
+/* Footer */
 .footer {
-  background: linear-gradient(135deg, #070707, #464b4e);
-  color: white;
-  height: 150px;
-  padding: 40px 20px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  position: relative;
-}
+    text-align: center;
+    background-color: $footer-bg;
+    color: $nav-color;
+    padding: 20px;
 
-.footer-contenido {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
+    a {
+        color: $nav-color;
+        margin: 0 10px;
+        font-size: 1.5rem;
+
+        &:hover {
+            color: $hover-color;
+        }
+    }
+
+h4 {
+    margin: 10px 0;
+    font-size: 1rem;
+
+    a {
+        color: $nav-color;
+        margin: 0 10px;
+
+        &:hover {
+            color: $hover-color;
+            }
+        }
+    }
+
+    .tel {
+        font-size: 1rem;
+    }
 }
-  
-.social-links {
-  display: flex;
-  gap: 15px;
-}
-  
-.social-icon {
-  font-size: 30px;
-  color: white;
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-  
-.social-icon:hover {
-  transform: scale(1.2);
-  color: #d4f519;
-}
-  
-.mail-link, .tel {
-  font-size: 18px;
-  font-weight: 500;
-  margin: 5px 0;
-  color: white;
-  transition: color 0.3s ease;
-}
-  
-.mail-link:hover, .tel:hover {
-  color: #d4f519;
-}
-  
-.copyright {
-  margin-top: 30px;
-  font-size: 14px;
-  color:rgb(0, 0, 0);
-  letter-spacing: 1px;
-}
-  
-.footer h4, .footer p {
-  text-shadow: 0 15px 15px rgb(0, 0, 0)
-}
-  
