@@ -1,0 +1,34 @@
+main {
+    .aeronautica {
+      text-align: center;
+      padding: 20px;
+  
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: $primary-color; /* Define tu color principal */
+      }
+  
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Distribución responsiva */
+        gap: 15px; /* Espaciado entre las imágenes */
+        justify-content: center;
+        padding: 0 20px;
+      }
+  
+      .grid-item {
+        width: 100%; /* Se ajusta automáticamente al tamaño del contenedor */
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); /* Añade un sombreado elegante */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto hover suave */
+  
+        &:hover {
+          transform: scale(1.05); /* Zoom suave al pasar el mouse */
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Mayor sombra */
+        }
+      }
+    }
+  }
+  

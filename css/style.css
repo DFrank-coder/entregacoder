@@ -74,7 +74,6 @@ body {
 }
 
 /* Main content */
-
 main .aeronautica {
   text-align: center;
   padding: 20px;
@@ -252,6 +251,7 @@ main .seccion-habilidades .habilidades-contenedor .habilidad-item .habilidad-con
 }
 
 /* Responsiveness */
+/* Responsiveness */
 @media (max-width: 768px) {
   .header-sticky-top .navbar {
     flex-direction: column;
@@ -282,10 +282,38 @@ main .seccion-habilidades .habilidades-contenedor .habilidad-item .habilidad-con
     text-align: left;
     padding: 12px 20px;
   }
-  main .seccion-diseño .diseño-contenedor,
-  main .seccion-habilidades .habilidades-contenedor {
-    flex-direction: column;
-  }
+}
+main .seccion-diseño .diseño-contenedor,
+main .seccion-habilidades .habilidades-contenedor {
+  flex-direction: column;
+}
+
+main .aeronautica {
+  text-align: center;
+  padding: 20px;
+}
+main .aeronautica h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #080808; /* Define tu color principal */
+}
+main .aeronautica .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Distribución responsiva */
+  gap: 15px; /* Espaciado entre las imágenes */
+  justify-content: center;
+  padding: 0 20px;
+}
+main .aeronautica .grid-item {
+  width: 100%; /* Se ajusta automáticamente al tamaño del contenedor */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); /* Añade un sombreado elegante */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto hover suave */
+}
+main .aeronautica .grid-item:hover {
+  transform: scale(1.05); /* Zoom suave al pasar el mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Mayor sombra */
 }
 
 /*# sourceMappingURL=style.css.map */
