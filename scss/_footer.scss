@@ -15,16 +15,16 @@
         }
     }
 
-h4 {
-    margin: 10px 0;
-    font-size: 1rem;
+    h4 {
+        margin: 10px 0;
+        font-size: 1rem;
 
-    a {
-        color: $nav-color;
-        margin: 0 10px;
+        a {
+            color: $nav-color;
+            margin: 0 10px;
 
-        &:hover {
-            color: $hover-color;
+            &:hover {
+                color: $hover-color;
             }
         }
     }
