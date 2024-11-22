@@ -316,4 +316,63 @@ main .aeronautica .grid-item:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Mayor sombra */
 }
 
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Aeronautica Section */
+.aeronautica {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.aeronautica h2 {
+  font-size: 2rem;
+  color: #0056b3;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.aeronautica p {
+  font-size: 1rem;
+  text-align: justify;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.aeronautica p br {
+  margin-top: 10px;
+}
+
+.aeronautica .video {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.aeronautica .video iframe {
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 890px;
+  height: auto;
+  aspect-ratio: 16/9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 /*# sourceMappingURL=style.css.map */
