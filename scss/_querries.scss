@@ -1,4 +1,4 @@
-/* Responsiveness */
+
 /* Responsiveness */
 @media (max-width: 768px) {
     .header-sticky-top .navbar {
@@ -43,4 +43,36 @@
             flex-direction: column;
         }
     }
-    
+
+    /* planeadores*/
+  /* Responsive Adjustments */
+@media (max-width: 768px) {
+    main .aeronautica h2 {
+      font-size: 1.5rem;
+    }
+  
+    main .aeronautica .grid-container {
+      grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
+      gap: 10px; /* Menor espacio entre elementos */
+    }
+  
+    main .aeronautica .grid-item {
+      border-radius: 5px; /* Bordes más pequeños */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    main .aeronautica h2 {
+      font-size: 1.2rem;
+    }
+  
+    main .aeronautica .grid-container {
+      padding: 5px; /* Reducir márgenes */
+    }
+  
+    main .aeronautica .grid-item {
+      box-shadow: none; /* Quitar sombra para pantallas más pequeñas */
+      transform: none; /* Eliminar efecto hover */
+    }
+  }
+  
