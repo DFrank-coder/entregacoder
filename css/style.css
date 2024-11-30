@@ -116,7 +116,7 @@ main .seccion-diseño h2:hover {
   color: #009ffd;
 }
 main .seccion-diseño h2:after {
-  content: "";
+  
   display: block;
   width: 0;
   height: 2px;
@@ -175,7 +175,7 @@ main .seccion-habilidades h2:hover {
   color: #009ffd;
 }
 main .seccion-habilidades h2:after {
-  content: "";
+  
   display: block;
   width: 0;
   height: 2px;
