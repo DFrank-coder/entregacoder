@@ -49,7 +49,7 @@ body {
 }
 .header-sticky-top .navbar .ul {
   display: flex;
-  gap: 25px;
+  grid-auto-flow: row;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -60,7 +60,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
-  padding: 10px 15px;
+  padding: 6px 15px;
   border-radius: 5px;
   transition: background 0.3s ease, color 0.3s ease;
 }
@@ -250,69 +250,7 @@ main .seccion-habilidades .habilidades-contenedor .habilidad-item .habilidad-con
   font-size: 1rem;
 }
 
-/* Responsiveness */
-@media (max-width: 768px) {
-  .header-sticky-top .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 15px 20px;
-  }
-  .header-sticky-top .navbar .titulo h1 {
-    font-size: 1.8rem;
-    padding-left: 0;
-  }
-  .header-sticky-top .navbar .ul {
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-    padding: 15px 0;
-    background: rgba(0, 0, 0, 0.8);
-    position: absolute;
-    top: 70px;
-    left: 0;
-    z-index: 999;
-    display: none;
-  }
-  .header-sticky-top .navbar .ul.active {
-    display: flex;
-  }
-  .header-sticky-top .navbar .ul .li a {
-    width: 100%;
-    text-align: left;
-    padding: 12px 20px;
-  }
-}
-main .seccion-diseño .diseño-contenedor,
-main .seccion-habilidades .habilidades-contenedor {
-  flex-direction: column;
-}
 
-/* planeadores*/
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  main .aeronautica h2 {
-    font-size: 1.5rem;
-  }
-  main .aeronautica .grid-container {
-    grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
-    gap: 10px; /* Menor espacio entre elementos */
-  }
-  main .aeronautica .grid-item {
-    border-radius: 5px; /* Bordes más pequeños */
-  }
-}
-@media (max-width: 480px) {
-  main .aeronautica h2 {
-    font-size: 1.2rem;
-  }
-  main .aeronautica .grid-container {
-    padding: 5px; /* Reducir márgenes */
-  }
-  main .aeronautica .grid-item {
-    box-shadow: none; /* Quitar sombra para pantallas más pequeñas */
-    transform: none; /* Eliminar efecto hover */
-  }
-}
 main .aeronautica {
   text-align: center;
   padding: 20px;
@@ -325,27 +263,27 @@ main .aeronautica h2 {
 main .aeronautica .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px; /* Espaciado entre las imágenes */
+  gap: 15px; 
   justify-content: center;
   padding: 0 20px;
 }
 main .aeronautica .grid-item {
-  width: 100%; /* Asegura que el contenedor se ajuste a su columna */
-  max-width: 300px; /* Establece un tamaño máximo para las imágenes */
+  width: 100%; 
+  max-width: 300px; 
   height: auto;
   border-radius: 10px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-  overflow: hidden; /* Evita que el contenido exceda el borde redondeado */
+  overflow: hidden; 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 main .aeronautica .grid-item img {
-  width: 100%; /* Asegura que las imágenes se adapten al contenedor */
-  height: auto; /* Mantiene las proporciones originales */
-  display: block; /* Elimina espacios blancos extra alrededor de las imágenes */
+  width: 100%;
+  height: auto; 
 }
+
 main .aeronautica .grid-item:hover {
-  transform: scale(1.05); /* Zoom suave al pasar el mouse */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Mayor sombra */
+  transform: scale(1.05); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* General Styles */
@@ -355,7 +293,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
-  color: #333;
+  color: #0e0d0d;
 }
 
 main {
@@ -384,7 +322,7 @@ main {
   text-align: justify;
   margin-bottom: 20px;
   line-height: 1.8;
-  color: #555;
+  color: #070606;
 }
 
 .aeronautica p br {
