@@ -12,29 +12,29 @@ main {
     .grid-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 15px; /* Espaciado entre las imágenes */
+      gap: 15px;
       justify-content: center;
       padding: 0 20px;
     }
 
     .grid-item {
-      width: 100%; /* Asegura que el contenedor se ajuste a su columna */
-      max-width: 300px; /* Establece un tamaño máximo para las imágenes */
+      width: 100%; 
+      max-width: 300px; 
       height: auto;
       border-radius: 10px;
       box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-      overflow: hidden; /* Evita que el contenido exceda el borde redondeado */
+      overflow: hidden; 
       transition: transform 0.3s ease, box-shadow 0.3s ease;
 
       img {
-        width: 100%; /* Asegura que las imágenes se adapten al contenedor */
-        height: auto; /* Mantiene las proporciones originales */
-        display: block; /* Elimina espacios blancos extra alrededor de las imágenes */
+        width: 100%; 
+        height: auto; 
+        display: block;
       }
 
       &:hover {
-        transform: scale(1.05); /* Zoom suave al pasar el mouse */
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Mayor sombra */
+        transform: scale(1.05); 
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
       }
     }
   }
