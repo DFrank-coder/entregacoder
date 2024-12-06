@@ -21,7 +21,7 @@ body {
   top: 0;
   z-index: 1000;
   background: linear-gradient(135deg, #080808, #4c4e4e);
-  padding: 15px 20px;
+  padding: 10px 10px;
   box-shadow: 0 10px 15px rgb(255, 238, 4);
 }
 .header-sticky-top .navbar {
@@ -37,6 +37,7 @@ body {
   height: auto;
   border-radius: 50%;
   padding: 8px;
+  margin: 16px
 }
 .header-sticky-top .navbar .titulo h1 {
   font-size: 2.2rem;
@@ -49,7 +50,6 @@ body {
 }
 .header-sticky-top .navbar .ul {
   display: flex;
-  grid-auto-flow: row;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -76,15 +76,15 @@ body {
 /* Main content */
 main .aeronautica {
   text-align: center;
-  padding: 20px;
+  padding: 50px;
 }
 main .aeronautica .titulo {
   font-size: 2rem;
   margin-bottom: 15px;
-  padding: 50px;
+  padding: 30px;
 }
 main .aeronautica .contenido {
-  margin: 0 auto;
+  margin: auto;
   max-width: 800px;
 }
 main .aeronautica .contenido .parrafo1,
@@ -104,7 +104,8 @@ main .aeronautica .contenido .parrafo2:hover {
 }
 main .seccion-diseño {
   text-align: center;
-  padding: 30px 20px;
+  padding: 5px 5px;
+  margin: 20px;
 }
 main .seccion-diseño h2 {
   margin-bottom: 20px;
@@ -130,12 +131,10 @@ main .seccion-diseño h2:hover:after {
   width: 100%;
 }
 main .seccion-diseño .diseño-contenedor {
-  display: flex;
-  justify-content: center;
-  gap: 60px;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 main .seccion-diseño .diseño-contenedor .diseño-item {
+  margin: 20px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -163,7 +162,7 @@ main .seccion-diseño .diseño-contenedor .diseño-item .descripcion:hover {
 }
 main .seccion-habilidades {
   text-align: center;
-  padding: 30px 20px;
+  padding: 1px 1px;
 }
 main .seccion-habilidades h2 {
   margin-bottom: 20px;
@@ -189,10 +188,7 @@ main .seccion-habilidades h2:hover:after {
   width: 100%;
 }
 main .seccion-habilidades .habilidades-contenedor {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 40px;
+  padding: 15px;
 }
 main .seccion-habilidades .habilidades-contenedor .habilidad-item {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -202,10 +198,7 @@ main .seccion-habilidades .habilidades-contenedor .habilidad-item:hover {
   box-shadow: 0 10px 15px rgb(0, 0, 0);
 }
 main .seccion-habilidades .habilidades-contenedor .habilidad-item .habilidad-contenido {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 50px;
+  padding: 20px;
 }
 main .seccion-habilidades .habilidades-contenedor .habilidad-item .habilidad-contenido .habilidad-icono {
   font-size: 2rem;

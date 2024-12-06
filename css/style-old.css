@@ -39,7 +39,7 @@
 
 .habilidades-contenedor {
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     gap: 2rem;
     flex-wrap: wrap;
 }
@@ -49,7 +49,7 @@
     padding: 1rem;
     border-style: inset;
     border-radius: 8px;
-    width: 180px;
+    width: 150px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -200,7 +200,7 @@ main .form-label {
 /* Responsive Breakpoints */
 @media (max-width: 768px) {
     .navbar-brand img {
-        width: 40px;
+        width: 20px;
     }
 
     footer h4 {
